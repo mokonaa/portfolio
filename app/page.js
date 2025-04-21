@@ -84,7 +84,7 @@ export default function Home() {
         <Box tagName="À propos" className="description">
           <p className='description__texte'>
             Développeuse Web Front-end à Paris, France 🇫🇷<br />
-            Hello ! Un matcha vous tente ? Ici vous pourrez retrouvez mes travaux professionnels mais aussi les projets que je réalise pendant  mon temps libre ou bien en bénévolat
+            Hello ! Un matcha vous tente ? Ici vous pourrez retrouvez mes travaux professionnels mais aussi les projets que je réalise pendant mon temps libre ou bien en bénévolat
           </p>
         </Box>
         <Box className='moi'>
