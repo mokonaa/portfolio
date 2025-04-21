@@ -1,0 +1,15 @@
+@use './variables' as *;
+
+.titre {
+    text-align: center;
+    width: 100%;
+    font-weight: $semi-bold;
+    font-size: $default;
+    margin: 0 auto;
+    margin-block: $default;
+}
+
+p {
+    font-weight: $medium;
+    line-height: $default;
+}

@@ -1,0 +1,28 @@
+@use './mixins' as *;
+
+$text-color: #2C2C2C;
+$background-color: #E2DEF0;
+$tag-color: #FFCC96;
+$background-tag-color: #FFF0E1;
+$grey-color: #DADADA;
+$light-grey-color: #F6F6F6;
+$dark-grey-color: #676767;
+$default: 1.5rem;
+
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+
+.hide-mobile {
+    display: none !important;
+    @include mq(small) {
+        display: block !important;
+    }
+}
+.hide-desktop {
+    display: block !important;
+    @include mq(small) {
+        display: none !important;
+    }
+}
