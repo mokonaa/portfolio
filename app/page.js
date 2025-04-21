@@ -147,7 +147,7 @@ export default function Home() {
               <FormationElement titre="DUT Multimédia et de l’Internet" entreprise="IUT de Laval, Laval" duree="2018 - 2020 / 2 ans" />
             </div>
           )}
-          <Link href="https://drive.google.com/file/d/1W7xOZRIYOdp8tIRoV5UHB540YrKnWNR-/view?usp=sharing" target="_blank" passHref>
+          <Link href="https://drive.google.com/file/d/1LgC4nGnXymWnL_QxoISl54N1OU3Amf3b/view?usp=sharing" target="_blank" passHref>
             <div className='formation__cv'>
               <p className='formation__cv-texte'>Voir mon CV</p>
               <svg className='formation__arrow' width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
