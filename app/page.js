@@ -88,7 +88,7 @@ export default function Home() {
           </p>
         </Box>
         <Box className='moi'>
-          <Image className='moi__image' href="/images/accueil/moi.png" alt="dessin de moi" />
+          <Image className='moi__image' width={225} height={225} src="/images/accueil/moi.png" alt="dessin de moi" />
           {/* <svg viewBox="0 0 300 300" class="moi__texte">
             <defs>
               <path
