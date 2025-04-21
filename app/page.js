@@ -108,8 +108,8 @@ export default function Home() {
           <Box href="https://github.com/mokonaa" className='reseaux__box' desktopImageSrc="/images/accueil/github-box.svg" imageAlt='Cliquez pour voir mes projets Github' />
         </div>
         <div className='travail'>
-          <Box href="/projets/kusmi-tea" className='travail__box' desktopImageSrc="/images/accueil/kusmitea.webp" imageAlt='Cliquez pour avoir plus de détails sur mon expérience chez Kusmi Tea' />
-          <Box href="/projets/etam" className='travail__box' desktopImageSrc="/images/accueil/etam.webp" imageAlt='Cliquez pour avoir sur mon expérience chez Etam' />
+          <Box tagName="Work" href="/projets/kusmi-tea" className='travail__box' desktopImageSrc="/images/accueil/kusmitea.webp" imageAlt='Cliquez pour avoir plus de détails sur mon expérience chez Kusmi Tea' />
+          <Box tagName="Work" href="/projets/etam" className='travail__box' desktopImageSrc="/images/accueil/etam.webp" imageAlt='Cliquez pour avoir sur mon expérience chez Etam' />
         </div>
         <Box className='formation'>
           <div className='formation__tag-container'>

@@ -34,8 +34,11 @@ main {
 
     &__box {
         width: 50%;
+    }
+}
+.reseaux {
+    &__box {
         padding: 0 !important;
-        background: none !important;
     }
 }
 
@@ -74,12 +77,22 @@ main {
 
 .travail {
     height: 160px;
+    .box__tag {
+        z-index: 2;
+    }
 
+    &__box {
+
+        .box__picture-container {
+            background-color: #FFEEBF;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
     &__box:first-child {
         width: 40% !important;
-
-        .box__picture-container img {
-            background-color: #FFEEBF;
+        img {
             object-fit: contain;
         }
     }

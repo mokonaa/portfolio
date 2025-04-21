@@ -9,7 +9,7 @@ export const projets = [
         demo: "https://drive.google.com/drive/folders/1XiTm0L496j998IqEhTMkXxar5TcmUDOV?usp=drive_link",
         slug: "kusmi-tea",
         images: ["/images/projets/kusmitea1.svg", "/images/projets/kusmitea2.webp"],
-        contexte: ["Dans le cadre de mon alternance chez Kusmi Tea, j’étais seule à mon poste au sein de l’équipe d’Animation/e-merch. Je m’occupais de l’intégration et la mise à jour de contenu. À mon arrivée, j’ai identifié des inefficacités dans le flux de travail, j’ai donc pris l’initiative pour ma productivité et celle des autres équipes de mettre en place des process organisationnels, tout en m’occupant des missions que je pouvais avoir au quotidien sur les 7 sites.", "En terme de stack technique j’utilisais quotidiennement : HTML, SCSS/SASS, Javascript natif, Gulp, Github, Monday et Notion.", "Mes missions :", "Intégration et mise à jour du contenu web (supports on site, popin, bannières, packshot produit, landing page…)", "Création et intégration des pages web responsive", "Intégration de tous les articles de blogs et/ou pages SEO sur l’ensemble des sites", "Mise en place de bonnes pratiques SEO en collaboration avec l’équipe acquisition", "Mise en place de bonnes pratiques UX en collaboration avec l’équipe Graphistes et UX", "A l’optimisation continue des sites e-commerce", "Participation à l’élaboration graphique et ergonomique des sites dans le respect des standards web et des contraintes d’intégration", "Veille concurrentielle (benchmark UX)", "Force de proposition pour la mise en place de nouvelles maquettes de Landing Pages et/ou visuels onsite"],
+        contexte: ["Dans le cadre de mon alternance chez Kusmi Tea, j’étais la seule intégratrice au sein de l’équipe Animation / E-merchandising. Je gérais l’intégration et la mise à jour de contenu sur les 7 sites de la marque. À mon arrivée, j’ai identifié plusieurs inefficacités dans les processus de production. J’ai donc pris l’initiative de mettre en place des process organisationnels afin d’améliorer ma productivité ainsi que celle des autres équipes, tout en assurant mes missions quotidiennes.", "Stack technique utilisée quotidiennement : HTML, SCSS/SASS, JavaScript natif, Gulp, GitHub, Monday et Notion", "Mes missions :", "Intégration et mise à jour de contenus web : supports onsite, pop-ins, bannières, visuels produits, landing pages, etc.", "Création et intégration de pages web responsive.", "Intégration des articles de blog et pages SEO sur l’ensemble des sites.", "Mise en place de bonnes pratiques SEO, en collaboration avec l’équipe Acquisition.", "Mise en place de bonnes pratiques UX, en collaboration avec les équipes Design et UX.", "Contribution à l’optimisation continue des sites e-commerce.", "Participation à la conception graphique et ergonomique des sites, dans le respect des standards web et des contraintes d’intégration.", "Réalisation de benchmarks UX dans le cadre d’une veille concurrentielle.", "Force de proposition pour la création de nouvelles maquettes de landing pages ou visuels onsite."],
         cta: "Voir les projets",
     },
     {
@@ -22,7 +22,17 @@ export const projets = [
         demo: "https://drive.google.com/drive/folders/1npWSimaG0PFbAf6rJdrPmsGZQN04bhRb?usp=sharing",
         slug: "etam",
         images: ["/images/projets/etam1.webp", "/images/projets/etam2.webp"],
-        contexte: ["Dans le cadre de mon alternance chez Etam, ma première alternance, j’étais dans une équipe de deux intégrateurs, dont le responsable de l’équipe. Je m’occupais de l’intégration et la mise à jour de contenu. Cette alternance m’a énormément apporté, elle m’a permis de mettre en pratique mes compétences, de solidifier mes bases, d’apprendre de travailler en équipe, de communiquer et également de faire preuve de dépassement de missions, sur 9 sites environ.", "En terme de stack technique j’utilisais quotidiennement : HTML, SCSS/SASS, Javascript natif, Gulp, Bitbucket, Trello et Notion.", "Mes missions :", "Intégration et mise à jour du contenu web (popin, bannières, landing page…)", "Création et intégration des pages web responsive", "Mise en place de bonnes pratiques UX en collaboration avec l’équipe Webdesign", "A l’optimisation continue des sites e-commerce", "Veille concurrentielle", "Amélioration des performances du site"],
+        contexte: [
+            "Lors de mon alternance chez Etam, ma première expérience professionnelle, j’étais intégratrice au sein d’une équipe de deux personnes, encadrée par le responsable de l’équipe. J’assurais l’intégration et la mise à jour de contenu sur une dizaine de sites. Cette expérience m’a permis de renforcer mes compétences techniques, de développer ma capacité à travailler en équipe et de dépasser le cadre de mes missions.",
+            "Stack technique utilisée quotidiennement : HTML, SCSS/SASS, JavaScript natif, Gulp, Bitbucket, Trello, Notion.",
+            "Mes missions :",
+            "Intégration et mise à jour de contenus web (pop-ins, bannières, landing pages…).",
+            "Création et intégration de pages web responsive.",
+            "Mise en place de bonnes pratiques UX, en collaboration avec l’équipe Webdesign.",
+            "Participation à l’optimisation continue des sites e-commerce.",
+            "Réalisation de veille concurrentielle.",
+            "Amélioration des performances des sites."
+        ],
         cta: "Voir les projets",
     },
     {
@@ -35,12 +45,23 @@ export const projets = [
         lien: "https://drive.google.com/drive/folders/1-DjOfFaT2kqABSdBP_b6eynrRUUMovQI?usp=drive_link",
         demo: "https://drive.google.com/drive/folders/1-DjOfFaT2kqABSdBP_b6eynrRUUMovQI?usp=drive_link",
         images: ["/images/projets/mtc_projet.webp", "/images/projets/mtc_projet2.webp"],
-        contexte: ["Mange Tes Carottes est une application pour aider les personnes qui souhaitent réduire leur consommation de viande, d’avoir un suivi de ce qu’ils ont mangé. J’ai eu l’idée en ayant moi-même eu ce besoin de savoir combien de fois j’ai pas mangé de viande dans la semaine, je voulais savoir l’impact que moi-même j’ai sur la planète selon le nombre de fois où j’ai choisi de pas en manger et d’avoir une application qui me permettrait réellement de me motiver à continuer. ", "J’ai utilisé React Native pour le développement de mon application. J’ai développé une API Rest avec Express et Node JS qui communique avec ma base de données que j’ai créé avec MongoDB. J’ai ensuite utilisé Vercel pour déployer mon API.", "Features développées :","L’authentification : Un utilisateur peut s’inscrire, se connecter, se déconnecter, vérifier son compte en recevant une adresse email, modifier son profil, supprimer son compte.", "Suivre ses objectifs : Durant l’onboarding, l’utilisateur peut choisir quelles viandes il souhaite éviter de manger. Il peut modifier son objectif à partir de son profil.", "Notifications : L’utilisateur peut autoriser les notifications pour recevoir une notification tous les jours à une certaine heure, il peut la modifier à partir de son profil.", "Ajout du nombre de repas sans viande : Lorsque l’utilisateur est connecté, il peut ajouter le nombre de fois où il n’a pas mangé de viande et par la suite ajouter les repas où il n’en a pas mangé.", "Voir ses statistiques : Selon le nombre de fois où il n’a pas mangé de viande qu’il a mangé, il peut voir ses statistiques : le nombre de litres d’eau économisés, le montant de CO2 économisé, l’argent économisé et le nombre de fois au total où il n’a pas mangé de viande. Les statistiques sont calculés selon le nombre de fois où l’utilisateur n’a pas mangé de viande, ses données sont basés sur des recherches de sources fiables, selon le gramme de viande, ici 150g est donc estimé par repas. Cela donne : 3,81g CO2 émis / 150g, 82,5L économisé / 150g, 2,57€ environ / 150g.", "En terme de sécurité vis à vis des données de l’utilisateur, personne ne peut avoir accès à l’API car les endpoints sont protégées, on peut y accéder seulement avec un token créé avec JWT qui est intégré dans l’application, ce qui permet à l’utilisateur d’utiliser les fonctionnalités d’authentification."],
+        contexte: 
+        [
+            "Mange Tes Carottes est une application destinée aux personnes souhaitant réduire leur consommation de viande, en leur permettant de suivre leurs repas. L’idée m’est venue car j’avais moi-même ce besoin : savoir combien de fois je n’avais pas mangé de viande dans la semaine, évaluer mon impact environnemental, et rester motivée à poursuivre mes efforts grâce à un suivi concret.",
+            "J’ai développé cette application avec React Native. Le backend repose sur une API REST que j’ai créée avec Express et Node.js, connectée à une base de données MongoDB. L’API est déployée sur Vercel.",
+            "Fonctionnalités développées :",
+            "Authentification : inscription, connexion, déconnexion, vérification de compte par e-mail, modification du profil, suppression du compte.",
+            "Suivi des objectifs : choix des viandes à éviter pendant l’onboarding, possibilité de modifier son objectif depuis le profil.",
+            "Notifications : l’utilisateur peut activer une notification quotidienne à une heure définie, modifiable depuis son profil.",
+            "Ajout des repas sans viande : l’utilisateur peut enregistrer le nombre de repas sans viande consommés, puis ajouter les détails de chaque repas.",
+            "Statistiques : affichage de l’impact environnemental basé sur les repas sans viande enregistrés : litres d’eau économisés, CO₂ non émis, argent économisé et nombre total de repas végétariens. Les données sont estimées sur une base de 150g de viande par repas (3,81g CO₂ / 150g, 82,5L d’eau / 150g, 2,57€ / 150g), selon des sources fiables.",
+            "Sécurité : les endpoints de l’API sont protégés par un système de token JWT intégré dans l’application, assurant que seules les personnes authentifiées puissent accéder aux fonctionnalités."
+        ],
         cta: "Voir plus",
     },
     {
         titre: "Les minis déboggueurs",
-        descriptif: "Une webapp créée pour soutenir un jeu de société informatif sur les dangers du numérique par la ville de Rouen",
+        descriptif: "Une webapp créée lors d'un hackaton, projet gagnant ! Pour soutenir un jeu de société informatif sur les dangers du numérique par la ville de Rouen",
         role: "Front-end",
         technologies: "React JS, Netlify, Parcel, Github",
         annee: "2024",
@@ -49,7 +70,21 @@ export const projets = [
         lien: "https://drive.google.com/drive/folders/1mcgPE2Ua3_Ah7iOUcyjN9qn6NfxXa-F3?usp=drive_link",
         demo: "https://les-minis-deboggueurs-game.netlify.app/",
         images: ["/images/projets/debog1.webp", "/images/projets/debog2.webp"],
-        contexte: ["Ce projet a été réalisé lors d'un hackathon de deux semaines pour la Métropole de Rouen, en collaboration avec Doralie Besnard-Guiol. Nous devions améliorer un prototype de jeu de société sur le numérique responsable (visé aux enfants) sur plusieurs aspects :", "la direction artistique du jeu, l'expérience utilisateur et le storytelling. De plus, nous avions dû réfléchir à la manière d'intégrer du digital dans ce projet sans le rendre obligatoire pour jouer au jeu de société, optionnel. Donc nous avons pensé à une webapp qui permet aux enfants de suivre au moins une manche facilement sur un téléphone à chaque tour.", "Features développées :", "Récupération des enfants choisis et des animateurs choisis", "Ordre du joueur (les enfants doivent choisir qui joue en premier ou non)", "Tri des joueurs selon les Enfants qui jouent et les Animateurs", "Gestion du nombre de manches", "Gestion du nombre de tours", "Gestion d’une fiche joueur selon si c’est le tour d’un Enfant ou le tour d’un Animateur", "Récupération de la thématique de l’Animateur", "Gestion de point de vie pour les enfants", "Le style concernant les features développées"],
+        contexte: [
+            "Ce projet a été réalisé dans le cadre d’un hackathon de deux semaines organisé pour la Métropole de Rouen, en collaboration avec Doralie Besnard-Guiol. Il s’agit du projet gagnant du hackaton ! Nous étions une équipe de cinq personnes : deux développeuses, deux directrices artistiques et une UI/UX designer. L’objectif était d’améliorer un prototype de jeu de société éducatif sur le numérique responsable, destiné aux enfants, en travaillant sur plusieurs axes :",
+            "la direction artistique du jeu, l’expérience utilisateur et le storytelling. Nous devions également réfléchir à une intégration numérique non obligatoire, afin de proposer un support digital optionnel. Nous avons donc imaginé une webapp permettant aux enfants de suivre facilement une manche à chaque tour via un téléphone.",
+            "Fonctionnalités développées :",
+            "Sélection des enfants et des animateurs participant à la partie.",
+            "Détermination de l’ordre de passage des joueurs (avec ou sans choix de priorité).",
+            "Tri des joueurs selon leur rôle : Enfant ou Animateur.",
+            "Gestion du nombre de manches dans la partie.",
+            "Gestion du nombre de tours par manche.",
+            "Affichage d’une fiche joueur spécifique selon le rôle (Enfant ou Animateur) au moment du tour.",
+            "Attribution d’une thématique aléatoire à chaque animateur.",
+            "Suivi des points de vie attribués aux enfants.",
+            "Direction artistique adaptée aux différentes fonctionnalités développées."
+        ]
+        ,
         cta: "Démo",
     },
 ]
