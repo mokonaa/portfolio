@@ -134,8 +134,8 @@ export default function Home() {
           </div>
           {activeTab === 0 && (
             <div className='formation__row-container'>
-              <FormationElement titre="Intégratrice Web" entreprise="Kusmi Tea" duree="2023 - 2024" />
-              <FormationElement titre="Intégratrice Web" entreprise="Etam" duree="2021 - 2023" />
+              <FormationElement titre="Intégratrice Web" entreprise="Kusmi Tea / alternance" duree="2023 - 2024" />
+              <FormationElement titre="Intégratrice Web" entreprise="Etam / alternance" duree="2021 - 2023" />
             </div>
           )}
 
