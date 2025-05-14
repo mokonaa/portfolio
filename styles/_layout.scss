@@ -211,6 +211,11 @@ main {
         }
     }
 
+    &__icon {
+        width: 10px;
+        height: 10px;
+    }
+
     &__titre {
         font-weight: $medium;
         font-size: 18px;
